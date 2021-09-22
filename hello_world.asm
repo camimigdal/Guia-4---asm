@@ -1,5 +1,5 @@
 section .data
-	msg: DB 'Hola Mundo', 10
+	msg: DB 10, 'Hola Mundo', 10
 	largo: EQU $ - msg
 
 	global _start
